@@ -1,6 +1,6 @@
 # Pokémon Landing Page
 
-**Assignment 5**
+**Assignment 1**
 
 A Pokémon-inspired landing page built using **HTML** and **CSS** while learning frontend development.
 
