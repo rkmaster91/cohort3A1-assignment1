@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.root {
+  margin: 4dvh , 4% , 2dvh , 2dvh;
+
+  height: 99%;
+  width: 99%;
+  display: flex;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.left {
+  height: 100%;
+  width: 65%;
+  background-color: #fbc60c;
+}
+.right {
+  height: 100%;
+  width: 35%;
+  background-color: #fce8b5;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: transparent;
+}
+.pok {
+  height: 100%;
+  width: 200px;
+  background-image: url(./IMGBIN_com_-_Download_Transparent_PNG_Images__For_Free-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+}
+.ham {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 40px 0 0;
+}
+
+i {
+  font-size: 70px;
+}
+H1 {
+  position: relative;
+  top: 120px;
+  left: 40px;
+  font-weight: 700;
+}
+.pickachu {
+  font-size: 200px;
+  font-weight: 900;
+  left: 40px;
+}
+p {
+  position: relative;
+  top: 90px;
+  left: 40px;
+}
+.pgno {
+  font-weight: 900;
+}
+.picture {
+  z-index: 9;
+  position: absolute;
+  background-image: url(./images-removebg-preview.png);
+  height: 40%;
+  width: 20%;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  top: 250px;
+  left: 850px;
+  transform: scale(2);
+  transition: transform ease-in-out 1s;
+}
+.pokeball {
+  position: relative;
+
+  width: 300px;
+  height: 300px;
+
+  border: 18px solid rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+}
+.line {
+  position: absolute;
+
+  top: 50%;
+  left: 0;
+
+  width: 40.5%;
+  height: 18px;
+
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: translateY(-50%);
+}
+.line2 {
+  position: absolute;
+
+  top: 50%;
+  right: 0;
+
+  width: 34%;
+  height: 18px;
+
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: translateY(-50%);
+}
+
+.center {
+  position: absolute;
+
+  top: 40%;
+  left: 40%;
+  bottom: 40px;
+
+  height: 70px;
+  width: 70px;
+
+  /* transform: translate(50% , 50%); */
+
+  background-color: transparent;
+  border: 10px solid rgba(0, 0, 0, 0.05);
+
+  border-radius: 50%;
+}
+.pokeball-container {
+  position: absolute;
+  overflow: hidden;
+  width: 300px;
+  height: 180px;
+  bottom: 0;
+  left: 40px;
+}
+.dots{
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.dot{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #f9c511;
+}
+.active{
+    background: black;
+}
+.picture:hover{
+  transform: translateY(-10px) scale(3.05);
+}
